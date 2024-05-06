@@ -1,0 +1,8 @@
+name = "nika" #ეს არის str (string) ტიპის ცვლადი
+surname = "macharashvili"  
+age = 15    #ეს არის int (integer) მთელი რიცხვი
+height = 160.5   #ეს არის floot ტიპის ცვლადი (ათწილადი)
+knows_programming = False
+is_handsome = True
+
+print(name + " " + surname + " " + str(age) +" "+ str(height) + " " + str(knows_programming) + " " + str(is_handsome))
