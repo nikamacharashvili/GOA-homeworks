@@ -147,14 +147,61 @@
 #     i -= 1
 
 # 3)Write a program that calculates and prints the sum of all integers from 1 to 100 using a while loop.
+# numb = 1
+# sum = 0
+# while numb <100:
+#      sum +=numb
+#      numb +=1
+# print(sum)
+
+
+
 
 # 4)Write a program that calculates and prints the square of numbers from 1 to 10 using a while loop.
+# num5 = 1
+# sum = 0
+# while num5 <10:
+#    sum += num5 ** 2
+#    num5 += 1
+# print(sum)
 
 # If - Else:
 # 1)Write an if-else statement to determine if a year entered by the user is a leap year.
+# year = int(input("please enter a year:"))
+# if year % 4 == 0:
+#     print("it's leap year")
+# else:
+#     print("it's not leap year")
 
 # 2)Check if a given string entered by the user is a palindrome.
+# word = input("please enter a word:")
+# if word == word[::-1]:
+#     print("it's palindrome")
+# else:
+#     print("its not palindrome")
+
 
 # 3)termine if a number entered by the user is positive, negative, or zero.
+# num =int(input("please enter a number"))
+# if num > 0 :
+#     print("its positive")
+# elif num <0 :
+#     print("its negative")
+# else:
+#     print("its zero")
+
+
 
 # 4)lculate the BMI of a person based on their height and weight entered by the user and classify their BMI category using if-else.
+# height = int(input("please enter your height"))
+# weight = int(input("please enter your weight"))
+# bmi = weight / ((height / 100) ** 2)
+# if bmi < 18.5:
+#     print("naklebia")
+# elif 18.5 < bmi <24.9:
+#     print("normal")
+# elif 25 < bmi <29.9:
+#     print("metia")
+# else:
+#     print("zedmetia")
+    
