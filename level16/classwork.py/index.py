@@ -9,6 +9,5 @@ print(names[2])
 family = ["nika","gio","luka","mari","saba"]
 family.append("levani")
 print(family)
-
 family.pop()
 print(family)
